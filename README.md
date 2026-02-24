@@ -24,7 +24,13 @@ I build with precision — and think in systems.
 
 🛠 Tech Stack
 
-<p align="left"> <img src="./icons/html.svg" height="32"> <img src="./icons/css.svg" height="32"> <img src="./icons/js.svg" height="32"> <img src="./icons/python.svg" height="32"> <img src="./icons/ai.svg" height="32"> </p>
+<p align="left">
+  <img src="./icons/html.svg" height="32">
+  <img src="./icons/css.svg" height="32">
+  <img src="./icons/js.svg" height="32">
+  <img src="./icons/python.svg" height="32">
+  <img src="./icons/ai.svg" height="32">
+</p>
 
 Focus Areas: Artificial Intelligence, automation, system design, creative development
 
