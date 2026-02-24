@@ -56,65 +56,82 @@
     </line>
   </g>
 
-  <!-- Полумесяц + изящный кот -->
-  <g transform="translate(690, 80)">
-    <!-- Полумесяц -->
-    <circle cx="0" cy="80" r="68" fill="#f7f4c8" opacity="0.9"/>
-    <circle cx="20" cy="70" r="68" fill="#050716"/>
+  <!-- Полумесяц + кошка с длинным хвостом и свечением -->
+    <g transform="translate(650, 40)">
 
-    <!-- Силуэт кошки (минималистичный) -->
-    <g fill="#ffffff">
-      <!-- Тело -->
-      <ellipse cx="-8" cy="90" rx="13" ry="23"/>
-      <!-- Голова -->
-      <circle cx="-8" cy="66" r="10"/>
-      <!-- Ушки -->
-      <polygon points="-15,62 -20,52 -10,57"/>
-      <polygon points="-1,62 4,52 -6,57"/>
-      <!-- Хвост -->
-      <path d="M 2 100 Q 22 110 24 132" stroke="#ffffff" stroke-width="3.2" fill="none" stroke-linecap="round">
-        <animate attributeName="d"
-          dur="2.6s"
-          repeatCount="indefinite"
-          values="
-            M 2 100 Q 22 110 24 132;
-            M 2 100 Q 28 118 26 136;
-            M 2 100 Q 22 110 24 132
-          "/>
-      </path>
-      <!-- Линия спины/посадки на край полумесяца -->
-      <path d="M -18 100 Q -24 108 -30 112" stroke="#ffffff" stroke-width="3" fill="none" stroke-linecap="round"/>
-    </g>
+  <!-- Свечение вокруг луны -->
+  <circle cx="0" cy="110" r="105" fill="none">
+    <animate attributeName="opacity" values="0.25;0.35;0.25" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="105;112;105" dur="6s" repeatCount="indefinite"/>
+  </circle>
 
-    <!-- Удочка -->
-    <g stroke="#c0c0c0" stroke-width="2">
-      <line x1="-4" y1="68" x2="42" y2="-8"/>
-      <line x1="42" y1="-8" x2="42" y2="68"/>
-    </g>
-
-    <!-- Планеты-наживки -->
-    <g transform="translate(42, 8)">
-      <g>
-        <circle cx="0" cy="-28" r="9" fill="#4fd1ff"/>
-        <circle cx="0" cy="-28" r="4" fill="#7ff0ff" opacity="0.9"/>
-      </g>
-      <g>
-        <circle cx="0" cy="8" r="7" fill="#ff6fb5"/>
-        <circle cx="0" cy="8" r="3" fill="#ffd1ec" opacity="0.9"/>
-      </g>
-      <g>
-        <circle cx="0" cy="40" r="10" fill="#f9c86b"/>
-        <circle cx="0" cy="40" r="4" fill="#fff3cf" opacity="0.9"/>
-        <animateTransform attributeName="transform"
-          type="translate"
-          values="0,0; 2,3; 0,0; -2,2; 0,0"
-          dur="3s"
-          repeatCount="indefinite"/>
-      </g>
-    </g>
+  <!-- Полумесяц -->
+    <g>
+    <circle cx="0" cy="110" r="85" fill="#f7f4c8" opacity="0.95"/>
+    <circle cx="28" cy="95" r="85" fill="#050716"/>
   </g>
 
-  <!-- Текст (сдвинут левее и короче по ширине) -->
+  <!-- Кошка внутри полумесяца -->
+   <g fill="#ffffff" transform="translate(-10, 20)">
+    <!-- Тело -->
+    <path d="M -10 120 C -28 100 -28 78 -10 68 C 8 78 8 100 -10 120 Z"/>
+
+    <!-- Голова -->
+    <circle cx="-10" cy="60" r="12"/>
+
+    <!-- Ушки -->
+    <polygon points="-18,55 -25,45 -10,50"/>
+    <polygon points="-2,55 5,45 -10,50"/>
+
+    <!-- Длинный хвост с мягкой анимацией -->
+    <path id="tail"
+      d="M 0 130 
+         Q 35 150 25 175 
+         T 10 210"
+      stroke="#ffffff"
+      stroke-width="4"
+      fill="none"
+      stroke-linecap="round">
+      <animate attributeName="d"
+        dur="4.5s"
+        repeatCount="indefinite"
+        values="
+          M 0 130 Q 35 150 25 175 T 10 210;
+          M 0 130 Q 42 158 30 182 T 14 212;
+          M 0 130 Q 35 150 25 175 T 10 210
+        "/>
+    </path>
+  </g>
+
+  <!-- Удочка вниз -->
+   <g stroke="#c0c0c0" stroke-width="3" stroke-linecap="round">
+    <line x1="-5" y1="75" x2="-5" y2="200"/>
+    <line x1="-5" y1="200" x2="-5" y2="240"/>
+  </g>
+  
+  <!-- Рыбка-наживка -->
+    <g transform="translate(-5, 240)">
+
+    <!-- Тело рыбки -->
+    <ellipse cx="0" cy="0" rx="14" ry="8" fill="#7f5cff" opacity="0.95"/>
+
+    <!-- Хвостик -->
+    <polygon points="10,0 20,6 20,-6" fill="#a98bff" opacity="0.9"/>
+
+    <!-- Блик -->
+    <circle cx="-4" cy="-2" r="3" fill="#cbb3ff" opacity="0.9"/>
+
+    <!-- Мягкое покачивание рыбки -->
+    <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0,0; 2,1; 0,0; -2,1; 0,0"
+        dur="3.5s"
+        repeatCount="indefinite"/>
+      </g>
+    </g>
+
+  <!-- Текст (сдвинут левее) -->
   <text x="50" y="150" fill="#ffffff" font-size="38" font-family="Verdana" opacity="0.95">
     Lara Kosta — AI × Fullstack
   </text>
