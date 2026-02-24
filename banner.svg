@@ -18,7 +18,7 @@
     </radialGradient>
   </defs>
 
-  <rect width="1200" height="300" fill="url(#space)" />
+  <rect width="1000" height="300" fill="url(#space)" />
 
   <!-- 🌌 Туманности (медленное движение) -->
   <g opacity="0.6">
@@ -162,3 +162,4 @@
   </text>
 
 </svg>
+
