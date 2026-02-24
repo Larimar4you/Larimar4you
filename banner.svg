@@ -1,0 +1,108 @@
+<svg width="100%" height="300" viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Фон -->
+  <defs>
+    <linearGradient id="space" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#050716"/>
+      <stop offset="100%" stop-color="#1b0f3b"/>
+    </linearGradient>
+
+    <radialGradient id="nebula1">
+      <stop offset="0%" stop-color="#7f5cff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#7f5cff" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="nebula2">
+      <stop offset="0%" stop-color="#ff6fb5" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#ff6fb5" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="900" height="300" fill="url(#space)" />
+
+  <!-- Туманности -->
+  <g opacity="0.6">
+    <ellipse cx="180" cy="200" rx="180" ry="110" fill="url(#nebula1)">
+      <animate attributeName="cx" values="180;230;180" dur="18s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="650" cy="120" rx="200" ry="120" fill="url(#nebula2)">
+      <animate attributeName="cx" values="650;600;650" dur="22s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+
+  <!-- Звёзды -->
+  <g>
+    <circle cx="120" cy="40" r="2" fill="white">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="cx" values="120;130;120" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="320" cy="90" r="1.8" fill="white">
+      <animate attributeName="opacity" values="1;0.2;1" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="cx" values="320;335;320" dur="12s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="540" cy="50" r="2.2" fill="white">
+      <animate attributeName="opacity" values="1;0.4;1" dur="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="cx" values="540;560;540" dur="11s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Луна -->
+  <circle cx="780" cy="80" r="40" fill="#f7f4c8" opacity="0.9"/>
+
+  <!-- Планета -->
+  <g transform="translate(720, 190)">
+    <circle cx="0" cy="0" r="24" fill="#4fd1ff"/>
+    <ellipse cx="0" cy="-5" rx="22" ry="6" fill="#7ff0ff" opacity="0.8"/>
+    <ellipse cx="0" cy="5" rx="20" ry="5" fill="#3bb0e0" opacity="0.8"/>
+
+    <g>
+      <ellipse cx="0" cy="0" rx="36" ry="12" fill="none" stroke="#c7f3ff" stroke-width="3" opacity="0.8"/>
+      <animateTransform attributeName="transform"
+        type="rotate"
+        from="0 0 0"
+        to="360 0 0"
+        dur="14s"
+        repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <!-- Комета -->
+  <g>
+    <line x1="-100" y1="20" x2="-40" y2="40" stroke="#9be7ff" stroke-width="3" stroke-linecap="round">
+      <animate attributeName="x1" from="-100" to="1000" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="x2" from="-40" to="1060" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="y1" from="20" to="120" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="y2" from="40" to="140" dur="5s" repeatCount="indefinite"/>
+    </line>
+  </g>
+
+  <!-- Котик -->
+  <g transform="translate(120, 70)">
+    <ellipse cx="80" cy="150" rx="55" ry="35" fill="#ffffff"/>
+
+    <path d="M 130 150 Q 160 160 150 190" stroke="#ffffff" stroke-width="10" fill="none" stroke-linecap="round">
+      <animate attributeName="d"
+        dur="2.2s"
+        repeatCount="indefinite"
+        values="
+          M 130 150 Q 160 160 150 190;
+          M 130 150 Q 175 150 150 190;
+          M 130 150 Q 160 160 150 190
+        "/>
+    </path>
+
+    <circle cx="80" cy="100" r="32" fill="#ffffff"/>
+
+    <polygon points="58,80 45,55 70,70" fill="#ffffff"/>
+    <polygon points="102,80 115,55 90,70" fill="#ffffff"/>
+
+    <circle cx="80" cy="68" r="7" fill="#ff6fb5">
+      <animate attributeName="r" values="7;9;7" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <polygon points="70,68 55,60 55,76" fill="#ff8fc5"/>
+    <polygon points="90,68 105,60 105,76" fill="#ff8fc5"/>
+
+    <circle cx="68" cy="98" r="4" fill="#222"/>
+    <circle cx="92" cy="98" r="4" fill="#222"/>
+
+    <rect x="64" y="92" width="8" height="0" fill="#050716">
