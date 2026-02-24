@@ -7,71 +7,56 @@
       <stop offset="100%" stop-color="#1b0f3b"/>
     </linearGradient>
 
-    <!-- Туманность -->
     <radialGradient id="nebula1">
       <stop offset="0%" stop-color="#7f5cff" stop-opacity="0.8"/>
       <stop offset="100%" stop-color="#7f5cff" stop-opacity="0"/>
     </radialGradient>
+
     <radialGradient id="nebula2">
       <stop offset="0%" stop-color="#ff6fb5" stop-opacity="0.7"/>
       <stop offset="100%" stop-color="#ff6fb5" stop-opacity="0"/>
     </radialGradient>
   </defs>
 
-  <rect width="1200" height="300" fill="url(#space)" />
+  <rect width="900" height="300" fill="url(#space)" />
 
-  <!-- 🌌 Туманности (медленное движение) -->
+  <!-- Туманности -->
   <g opacity="0.6">
-    <ellipse cx="200" cy="200" rx="200" ry="120" fill="url(#nebula1)">
-      <animate attributeName="cx" values="200;260;200" dur="18s" repeatCount="indefinite"/>
+    <ellipse cx="180" cy="200" rx="180" ry="110" fill="url(#nebula1)">
+      <animate attributeName="cx" values="180;230;180" dur="18s" repeatCount="indefinite"/>
     </ellipse>
-    <ellipse cx="800" cy="120" rx="220" ry="130" fill="url(#nebula2)">
-      <animate attributeName="cx" values="800;740;800" dur="22s" repeatCount="indefinite"/>
+    <ellipse cx="650" cy="120" rx="200" ry="120" fill="url(#nebula2)">
+      <animate attributeName="cx" values="650;600;650" dur="22s" repeatCount="indefinite"/>
     </ellipse>
   </g>
 
-  <!-- ✨ Звёзды с параллаксом -->
-  <!-- Ближний слой -->
+  <!-- Звёзды -->
   <g>
-    <circle cx="150" cy="40" r="2" fill="white">
+    <circle cx="120" cy="40" r="2" fill="white">
       <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
-      <animate attributeName="cx" values="150;160;150" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="cx" values="120;130;120" dur="10s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="350" cy="90" r="1.8" fill="white">
+    <circle cx="320" cy="90" r="1.8" fill="white">
       <animate attributeName="opacity" values="1;0.2;1" dur="3s" repeatCount="indefinite"/>
-      <animate attributeName="cx" values="350;365;350" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="cx" values="320;335;320" dur="12s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="600" cy="50" r="2.2" fill="white">
+    <circle cx="540" cy="50" r="2.2" fill="white">
       <animate attributeName="opacity" values="1;0.4;1" dur="1.8s" repeatCount="indefinite"/>
-      <animate attributeName="cx" values="600;620;600" dur="11s" repeatCount="indefinite"/>
+      <animate attributeName="cx" values="540;560;540" dur="11s" repeatCount="indefinite"/>
     </circle>
   </g>
 
-  <!-- Дальний слой -->
-  <g opacity="0.7">
-    <circle cx="900" cy="70" r="1.5" fill="white">
-      <animate attributeName="opacity" values="1;0.1;1" dur="2.5s" repeatCount="indefinite"/>
-      <animate attributeName="cx" values="900;890;900" dur="16s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="1100" cy="40" r="1.8" fill="white">
-      <animate attributeName="opacity" values="1;0.5;1" dur="3.2s" repeatCount="indefinite"/>
-      <animate attributeName="cx" values="1100;1085;1100" dur="18s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-
-  <!-- 🌕 Луна + 🪐 вращающаяся планета -->
-  <circle cx="1040" cy="80" r="45" fill="#f7f4c8" opacity="0.9"/>
+  <!-- Луна -->
+  <circle cx="780" cy="80" r="40" fill="#f7f4c8" opacity="0.9"/>
 
   <!-- Планета -->
-  <g transform="translate(950, 190)">
-    <circle cx="0" cy="0" r="26" fill="#4fd1ff"/>
-    <!-- Полосы -->
-    <ellipse cx="0" cy="-5" rx="24" ry="6" fill="#7ff0ff" opacity="0.8"/>
-    <ellipse cx="0" cy="5" rx="22" ry="5" fill="#3bb0e0" opacity="0.8"/>
+  <g transform="translate(720, 190)">
+    <circle cx="0" cy="0" r="24" fill="#4fd1ff"/>
+    <ellipse cx="0" cy="-5" rx="22" ry="6" fill="#7ff0ff" opacity="0.8"/>
+    <ellipse cx="0" cy="5" rx="20" ry="5" fill="#3bb0e0" opacity="0.8"/>
 
-    <!-- Кольцо -->
     <g>
-      <ellipse cx="0" cy="0" rx="40" ry="14" fill="none" stroke="#c7f3ff" stroke-width="3" opacity="0.8"/>
+      <ellipse cx="0" cy="0" rx="36" ry="12" fill="none" stroke="#c7f3ff" stroke-width="3" opacity="0.8"/>
       <animateTransform attributeName="transform"
         type="rotate"
         from="0 0 0"
@@ -81,22 +66,20 @@
     </g>
   </g>
 
-  <!-- 🌠 Падающая комета -->
+  <!-- Комета -->
   <g>
     <line x1="-100" y1="20" x2="-40" y2="40" stroke="#9be7ff" stroke-width="3" stroke-linecap="round">
-      <animate attributeName="x1" from="-100" to="1300" dur="5s" repeatCount="indefinite"/>
-      <animate attributeName="x2" from="-40" to="1360" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="x1" from="-100" to="1000" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="x2" from="-40" to="1060" dur="5s" repeatCount="indefinite"/>
       <animate attributeName="y1" from="20" to="120" dur="5s" repeatCount="indefinite"/>
       <animate attributeName="y2" from="40" to="140" dur="5s" repeatCount="indefinite"/>
     </line>
   </g>
 
-  <!-- 🐈‍⬛ Котик -->
-  <g transform="translate(140, 70)">
-    <!-- Тело -->
+  <!-- Котик -->
+  <g transform="translate(120, 70)">
     <ellipse cx="80" cy="150" rx="55" ry="35" fill="#ffffff"/>
 
-    <!-- Хвост (покачивание) -->
     <path d="M 130 150 Q 160 160 150 190" stroke="#ffffff" stroke-width="10" fill="none" stroke-linecap="round">
       <animate attributeName="d"
         dur="2.2s"
@@ -108,60 +91,22 @@
         "/>
     </path>
 
-    <!-- Голова -->
     <circle cx="80" cy="100" r="32" fill="#ffffff"/>
 
-    <!-- Ушки -->
     <polygon points="58,80 45,55 70,70" fill="#ffffff"/>
     <polygon points="102,80 115,55 90,70" fill="#ffffff"/>
 
-    <!-- 💫 Бантик (пульсация) -->
     <circle cx="80" cy="68" r="7" fill="#ff6fb5">
       <animate attributeName="r" values="7;9;7" dur="1.8s" repeatCount="indefinite"/>
     </circle>
     <polygon points="70,68 55,60 55,76" fill="#ff8fc5"/>
     <polygon points="90,68 105,60 105,76" fill="#ff8fc5"/>
 
-    <!-- Глаза -->
     <circle cx="68" cy="98" r="4" fill="#222"/>
     <circle cx="92" cy="98" r="4" fill="#222"/>
 
-    <!-- Моргание -->
     <rect x="64" y="92" width="8" height="0" fill="#050716">
-      <animate attributeName="height" values="0;10;0" dur="3s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="88" y="92" width="8" height="0" fill="#050716">
-      <animate attributeName="height" values="0;10;0" dur="3s" repeatCount="indefinite"/>
-    </rect>
 
-    <!-- Удочка -->
-    <line x1="120" y1="120" x2="210" y2="40" stroke="#c0c0c0" stroke-width="3"/>
-    <line x1="210" y1="40" x2="210" y2="140" stroke="#c0c0c0" stroke-width="2"/>
-
-    <!-- 🐟 Рыбка на крючке (анимация) -->
-    <g transform="translate(210, 140)">
-      <ellipse cx="0" cy="0" rx="16" ry="9" fill="#7ff0ff">
-        <animate attributeName="cy" values="0;-4;0" dur="1.6s" repeatCount="indefinite"/>
-      </ellipse>
-      <polygon points="-16,0 -26,-7 -26,7" fill="#7ff0ff">
-        <animate attributeName="points"
-          values="-16,0 -26,-7 -26,7; -16,0 -26,-4 -26,4; -16,0 -26,-7 -26,7"
-          dur="1.6s"
-          repeatCount="indefinite"/>
-      </polygon>
-      <circle cx="6" cy="-2" r="2" fill="#003344"/>
-    </g>
-  </g>
-
-  <!-- Текст -->
-  <text x="360" y="160" fill="#ffffff" font-size="50" font-family="Verdana" opacity="0.95">
-    Lara Kosta — AI × Fullstack × Creative
-  </text>
-  <text x="360" y="200" fill="#c7c7ff" font-size="26" font-family="Verdana" opacity="0.8">
-    Coding in space. Fishing for ideas. Creating with style.
-  </text>
-
-</svg>
 
 
 
