@@ -20,7 +20,7 @@
 
   <rect width="900" height="300" fill="url(#space)" />
 
-  <!-- Туманности -->
+  <!-- Туман -->
   <g opacity="0.6">
     <ellipse cx="180" cy="200" rx="180" ry="110" fill="url(#nebula1)">
       <animate attributeName="cx" values="180;230;180" dur="18s" repeatCount="indefinite"/>
@@ -30,7 +30,7 @@
     </ellipse>
   </g>
 
-  <!-- Звёзды -->
+  <!-- Зiрки -->
   <g>
     <circle cx="120" cy="40" r="2" fill="white">
       <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
@@ -46,7 +46,7 @@
     </circle>
   </g>
 
-  <!-- Луна -->
+  <!-- Мiсяць -->
   <circle cx="780" cy="80" r="40" fill="#f7f4c8" opacity="0.9"/>
 
   <!-- Планета -->
@@ -129,7 +129,6 @@
     </g>
   </g>
 
-  <!-- Текст -->
   <text x="300" y="160" fill="#ffffff" font-size="44" font-family="Verdana" opacity="0.95">
     Lara Kosta — AI × Fullstack × Creative
   </text>
