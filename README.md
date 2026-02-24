@@ -25,7 +25,7 @@ I build with precision — and think in systems.
 🛠 Tech Stack
 Frontend: HTML, CSS, JavaScript
 Backend: Python
-Tools: Git, GitHub
+Tools: Git, GitHub, SVG / animation
 Focus Areas: Artificial Intelligence, automation, system design, creative development
 
 ───────────────────────────────────────────────
