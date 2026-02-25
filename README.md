@@ -8,11 +8,6 @@
 and a restless curiosity for intelligent systems.
 
 ───────────────────────────────────────────────
-
-■ I build with precision — and think in systems.
-
-───────────────────────────────────────────────
-
 ■ Tech Stack
 
 <p align="left">
