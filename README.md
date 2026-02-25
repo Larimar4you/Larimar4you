@@ -1,7 +1,6 @@
 ## Hi there 👋
 
 <h1 align="center">Hi, I'm Lara Kosta 👋</h1>
-<h3 align="center">AI‑creator × Fullstack developer in progress</h3>
 
 ───────────────────────────────────────────────
 
@@ -11,10 +10,6 @@ and a restless curiosity for intelligent systems.
 ───────────────────────────────────────────────
 
 ■ I build with precision — and think in systems.
-
-───────────────────────────────────────────────
-
-■ Featured Projects ■ (Coming soon — currently building AI-powered and fullstack projects.)
 
 ───────────────────────────────────────────────
 
@@ -32,7 +27,7 @@ Focus Areas: Artificial Intelligence, automation, system design, creative develo
 
 ───────────────────────────────────────────────
 
-■ About me ■ Fullstack developer pursuing a Master’s degree in Software Engineering
+■ Fullstack developer pursuing a Master’s degree in Software Engineering
 and Artificial Intelligence.
 
 I focus on building clean, scalable systems that combine solid software architecture with intelligent automation.
