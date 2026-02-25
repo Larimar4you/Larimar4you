@@ -4,7 +4,7 @@
 
 ───────────────────────────────────────────────
 
-🦈 My signature vibe ■ Clean architecture, bold thinking,
+🦈 My signature vibe: clean architecture, bold thinking,
 and a restless curiosity for intelligent systems.
 
 ───────────────────────────────────────────────
@@ -18,7 +18,7 @@ and a restless curiosity for intelligent systems.
 <img src="./assets/icons/ai.svg" height="32">
 </p>
 
-Focus Areas: Artificial Intelligence, automation, system design, creative development
+■ Focus Areas: Artificial Intelligence, automation, system design, creative development
 
 ───────────────────────────────────────────────
 
