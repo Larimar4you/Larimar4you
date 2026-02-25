@@ -8,7 +8,6 @@
 and a restless curiosity for intelligent systems.
 
 ───────────────────────────────────────────────
-■ Tech Stack
 
 <p align="left">
 <img src="./assets/icons/html.svg" height="32">
