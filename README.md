@@ -46,9 +46,7 @@ I value clarity, structure, and long-term thinking in both code and product deci
 
 ───────────────────────────────────────────────
 
-🎯 Goal
-
-To build intelligent, scalable digital products as an independent developer.
+🎯 Goal To build intelligent, scalable digital products as an independent developer.
 
 Long-term, I’m interested in multi-agent AI systems, conversational interfaces, and behavioral modeling within intelligent software environments.
 
