@@ -5,28 +5,24 @@
 
 ───────────────────────────────────────────────
 
-🦈 My signature vibe
-Clean architecture, bold thinking, and a restless curiosity for intelligent systems.
-I build with precision — and think in systems.
+🦈 My signature vibe ■ Clean architecture, bold thinking,
+and a restless curiosity for intelligent systems.
 
 ───────────────────────────────────────────────
 
-🎨 What I love building
-Clean architecture, bold thinking, and a restless curiosity for intelligent systems.
-I build with precision — and think in systems.
+■ I build with precision — and think in systems.
 
 ───────────────────────────────────────────────
 
-🚀 Featured Projects
-(Coming soon — currently building AI-powered and fullstack projects.)
+■ Featured Projects ■ (Coming soon — currently building AI-powered and fullstack projects.)
 
 ───────────────────────────────────────────────
 
 🛠 Tech Stack
 
 <p align="left">
-  <img src="./icons/html.svg" height="32">
-  <img src="./icons/css.svg" height="32">
+  <img src="./assets/icons/html.svg" height="32">
+  <img src="../icons/css.svg" height="32">
   <img src="./icons/js.svg" height="32">
   <img src="./icons/python.svg" height="32">
   <img src="./icons/ai.svg" height="32">
