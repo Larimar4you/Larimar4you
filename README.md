@@ -18,22 +18,22 @@ and a restless curiosity for intelligent systems.
 
 ───────────────────────────────────────────────
 
-🛠 Tech Stack
+■ Tech Stack
 
 <p align="left">
-  <img src="./assets/icons/html.svg" height="32">
-  <img src="../icons/css.svg" height="32">
-  <img src="./icons/js.svg" height="32">
-  <img src="./icons/python.svg" height="32">
-  <img src="./icons/ai.svg" height="32">
+<img src="./assets/icons/html.svg" height="32">
+<img src="./assets/icons/css.svg" height="32">
+<img src="./assets/icons/js.svg" height="32">
+<img src="./assets/icons/python.svg" height="32">
+<img src="./assets/icons/ai.svg" height="32">
 </p>
 
 Focus Areas: Artificial Intelligence, automation, system design, creative development
 
 ───────────────────────────────────────────────
 
-💬 About me
-Fullstack developer pursuing a Master’s degree in Software Engineering and Artificial Intelligence.
+■ About me ■ Fullstack developer pursuing a Master’s degree in Software Engineering
+and Artificial Intelligence.
 
 I focus on building clean, scalable systems that combine solid software architecture with intelligent automation.
 Interested in AI-driven solutions, system design, and modern web development.
@@ -42,7 +42,7 @@ I value clarity, structure, and long-term thinking in both code and product deci
 
 ───────────────────────────────────────────────
 
-🎯 Goal To build intelligent, scalable digital products as an independent developer.
+■ Goal To build intelligent, scalable digital products as an independent developer.
 
 Long-term, I’m interested in multi-agent AI systems, conversational interfaces, and behavioral modeling within intelligent software environments.
 
