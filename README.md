@@ -1,4 +1,5 @@
 <img src="./styles/hero.svg" width="400">
+<img src="./styles/hero-hand.svg" width="60">
 
 <h1 align="center">Hi, I'm Lara Kosta 👋</h1>
 
