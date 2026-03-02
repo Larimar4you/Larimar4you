@@ -2,11 +2,10 @@
 
   <!-- Теxt — 1st LAYOUT -->
   <style>
-    .title {
+    .text {
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      font-size: 32px; /* больше, чем coding in space */
-      font-weight: 400; /* как coding in space */
       fill: #c7c7ff;
+      animation: slide 1.2s ease-out forwards;
     }
     @keyframes slide {
       from { transform: translateX(-120%); }
@@ -18,7 +17,7 @@
 
   <style>
      .hand {
-      transform-origin: 120px 35px;
+      transform-origin: 300px 30px;
       animation: wave 3s ease-in-out;
       animation-iteration-count: 1;
       animation-delay: 1.4s; 
@@ -55,7 +54,7 @@
       }
   </style>
 
-  <text x="300" y="70" font-size="50" class="hand">👋</text>
+  <text x="400" y="70" font-size="50" class="hand">👋</text>
 
 </svg>
 
