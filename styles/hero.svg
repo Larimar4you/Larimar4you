@@ -17,7 +17,7 @@
 
   <style>
      .hand {
-      transform-origin: 400px 30px;
+      transform-origin: 300px 30px;
       animation: wave 3s ease-in-out;
       animation-iteration-count: 1;
       animation-delay: 1.4s; 
