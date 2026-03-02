@@ -19,7 +19,7 @@
      .hand {
       transform-origin: 300px 60px;
       animation: wave 4s infinite ease-in-out;
-      animation-delay: 1.4s; 
+      animation-delay: 4s; 
     }
     @keyframes wave {
         0%   { transform: rotate(0deg); }
@@ -45,7 +45,7 @@
       }
   </style>
 
-  <text x="350" y="70" font-size="50" class="hand">👋</text>
+  <text x="300" y="70" font-size="50" class="hand">👋</text>
 
 </svg>
 
