@@ -3,7 +3,7 @@
   <!-- Теxt — 1st LAYOUT -->
   <style>
     .text {
-      font: 700 48px sans-serif;
+      font: 600 48px sans-serif;
       fill: #c7c7ff;
       animation: slide 1.2s ease-out forwards;
     }
