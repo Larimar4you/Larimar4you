@@ -1,16 +1,54 @@
-<svg width="400" height="60" xmlns="http://www.w3.org/2000/svg">
+<svg width="480" height="90" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- hand — layout backwards -->
+  <g>
+    <style>
+      .hand {
+        transform-origin: 40px 55px;
+        animation: wave 4s infinite ease-in-out;
+      }
+
+      @keyframes wave {
+        0%   { transform: rotate(0deg); }
+        5%   { transform: rotate(20deg); }
+        10%  { transform: rotate(-10deg); }
+        15%  { transform: rotate(20deg); }
+        20%  { transform: rotate(0deg); }   /* end of 1st cycle */
+
+        25%  { transform: rotate(20deg); }
+        30%  { transform: rotate(-10deg); }
+        35%  { transform: rotate(20deg); }
+        40%  { transform: rotate(0deg); }   /* end of 2nd cycle */
+
+        70%  { transform: rotate(0deg); }   /* pausa */
+
+        75%  { transform: rotate(20deg); }
+        80%  { transform: rotate(-10deg); }
+        85%  { transform: rotate(20deg); }
+        90%  { transform: rotate(0deg); }   /*end of 3d cycle*/
+
+        95%  { transform: rotate(20deg); }
+        100% { transform: rotate(0deg); }   /* end og 4th cycle */
+      }
+    </style>
+
+    <text x="0" y="70" font-size="60" class="hand">👋</text>
+  </g>
+
+  <!-- Теxt — 1st LAYOUT -->
   <style>
     .text {
-      font: 700 32px sans-serif;
+      font: 700 48px sans-serif;
       fill: #c7c7ff;
       animation: slide 1.2s ease-out forwards;
     }
     @keyframes slide {
       from { transform: translateX(-120%); }
-      to { transform: translateX(0); }
+      to   { transform: translateX(0); }
     }
   </style>
 
-  <text x="0" y="40" class="text">Hi there!!! 👋</text>
+  <text x="90" y="70" class="text">Hi there!!!</text>
+
 </svg>
 
