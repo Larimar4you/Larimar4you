@@ -3,7 +3,7 @@
   <!-- Теxt — 1st LAYOUT -->
   <style>
     .text {
-      font: 400 48px sans-serif;
+      font: 300 48px sans-serif;
       fill: #c7c7ff;
       animation: slide 1.2s ease-out forwards;
     }
@@ -19,7 +19,7 @@
      .hand {
       transform-origin: 400px 30px;
       animation: wave 3s ease-in-out;
-      animation-iteration-count: 2;
+      animation-iteration-count: 1;
       animation-delay: 1.4s; 
       opacity: 0; animation-fill-mode: forwards;
     }
