@@ -1,4 +1,4 @@
-## Hi there 👋
+<img src="your-file.svg" width="400">
 
 <h1 align="center">Hi, I'm Lara Kosta 👋</h1>
 
