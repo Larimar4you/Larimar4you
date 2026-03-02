@@ -15,7 +15,7 @@
   <text id="title" x="20" y="70" class="text">Hi there!!!</text>
   <style>
      .hand {
-      transform-origin: 20px 20px;
+      transform-origin: 350px 60px;
       animation: wave 4s infinite ease-in-out;
     }
     @keyframes wave {
@@ -42,7 +42,7 @@
       }
   </style>
 
-  <text x="300" y="70" font-size="50" class="hand">👋</text>
+  <text x="350" y="70" font-size="50" class="hand">👋</text>
 
 </svg>
 
