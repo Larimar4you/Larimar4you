@@ -2,8 +2,6 @@
 
 <h1 align="center">Hi, I'm Lara Kosta 👋</h1>
 
-───────────────────────────────────────────────
-
 🦈 My signature vibe: clean architecture, bold thinking,
 and a restless curiosity for intelligent systems.
 ───────────────────────────────────────────────
