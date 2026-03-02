@@ -3,7 +3,7 @@
   <!-- Теxt — 1st LAYOUT -->
   <style>
     .text {
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font: 300 48px sans-serif;
       fill: #c7c7ff;
       animation: slide 1.2s ease-out forwards;
     }
@@ -54,7 +54,7 @@
       }
   </style>
 
-  <text x="400" y="70" font-size="50" class="hand">👋</text>
+  <text x="300" y="70" font-size="50" class="hand">👋</text>
 
 </svg>
 
