@@ -12,11 +12,14 @@
       to   { transform: translateX(0); }
     }
   </style>
+
   <text id="title" x="20" y="70" class="text">Hi there!!!</text>
+
   <style>
      .hand {
-      transform-origin: 350px 60px;
+      transform-origin: 300px 60px;
       animation: wave 4s infinite ease-in-out;
+      animation-delay: 1.4s; 
     }
     @keyframes wave {
         0%   { transform: rotate(0deg); }
