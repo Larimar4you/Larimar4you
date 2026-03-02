@@ -6,7 +6,6 @@
 
 🦈 My signature vibe: clean architecture, bold thinking,
 and a restless curiosity for intelligent systems.
-
 ───────────────────────────────────────────────
 
 <p align="left">
@@ -18,7 +17,6 @@ and a restless curiosity for intelligent systems.
 </p>
 
 ■ Focus Areas: Artificial Intelligence, automation, system design, creative development
-
 ───────────────────────────────────────────────
 
 ■ Fullstack developer pursuing a Master’s degree in Software Engineering
@@ -28,13 +26,11 @@ I focus on building clean, scalable systems that combine solid software architec
 Interested in AI-driven solutions, system design, and modern web development.
 
 I value clarity, structure, and long-term thinking in both code and product decisions.
-
 ───────────────────────────────────────────────
 
 ■ Goal To build intelligent, scalable digital products as an independent developer.
 
 Long-term, I’m interested in multi-agent AI systems, conversational interfaces, and behavioral modeling within intelligent software environments.
-
 ───────────────────────────────────────────────
 🌐 Connect
 
