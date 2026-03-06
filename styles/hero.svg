@@ -7,7 +7,7 @@
                Helvetica, Arial, sans-serif, "Apple Color Emoji",
                "Segoe UI Emoji";
       font-size: 48px;
-      font-weight: 200;
+      font-weight: 150;
       fill: #c7c7ff;
       animation: slide 1.2s ease-out forwards;
     }
