@@ -6,13 +6,7 @@
 and a restless curiosity for intelligent systems.
 ───────────────────────────────────────────────
 
-<p align="left">
-<img src="./assets/icons/html.svg" height="32">
-<img src="./assets/icons/css.svg" height="32">
-<img src="./assets/icons/js.svg" height="32">
-<img src="./assets/icons/python.svg" height="32">
-<img src="./assets/icons/ai.svg" height="32">
-</p>
+https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/<icon>/<icon>-original.svg
 
 ■ Focus Areas: Artificial Intelligence, automation, system design, creative development
 ───────────────────────────────────────────────
