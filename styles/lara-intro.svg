@@ -1,20 +1,26 @@
-<svg width="650" height="80" xmlns="http://www.w3.org/2000/svg">
+<svg width="650" height="90" xmlns="http://www.w3.org/2000/svg">
   <style>
-    .line {
-      font-size: 30px;
+    text {
       font-family: "Inter", sans-serif;
       fill: #c7c7ff;
+      font-size: 30px;
+      opacity: 0;
       animation: slide 5s infinite;
     }
 
+    #line2 {
+      animation-delay: 0.4s;
+    }
+
     @keyframes slide {
-      0% { transform: translateY(100%); opacity: 0; }
+      0% { transform: translateY(20px); opacity: 0; }
       20% { transform: translateY(0); opacity: 1; }
       70% { transform: translateY(0); opacity: 1; }
-      100% { transform: translateY(-100%); opacity: 0; }
+      100% { transform: translateY(-20px); opacity: 0; }
     }
   </style>
 
-  <text x="0" y="35" class="line">Hello, I build things that matter...</text>
-  <text x="0" y="70" class="line" style="animation-delay: 0.3s;">I'm Lara Kosta.</text>
+  <text x="0" y="35" id="line1">Hello, I build things that matter.</text>
+  <text x="0" y="75" id="line2">I'm Lara Kosta.</text>
 </svg>
+
