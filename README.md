@@ -1,4 +1,4 @@
-<img src="lara-intro.svg" width="650">
+<img src="./styles/lara-intro.svg" width="650">
 
 <!-- <img src="./styles/hero.svg" width="400"> -->
 
