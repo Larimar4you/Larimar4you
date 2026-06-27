@@ -42,7 +42,7 @@ and a restless curiosity for intelligent systems.
 <!-- <img src="./assets/icons/html5.svg" width="18" /> -->
 
 ■ Focus Areas: Artificial Intelligence, automation, system design, creative development
-───────────────────────────────────────────────
+─────────────────────────────────────────────────
 
 ■ Fullstack developer pursuing a Master’s degree in Software Engineering
 and Artificial Intelligence.
