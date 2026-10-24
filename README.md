@@ -42,7 +42,7 @@ and a restless curiosity for intelligent systems.
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqldeveloper/sqldeveloper-original.svg" width="16" title="SQL" />
 </p>
 <p>Deployment: Vercel · Render</p>
-<img src="./styles/tech-animation.svg" width="100%">
+
 <!-- <img src="./assets/icons/html5.svg" width="18" /> -->
 
 ■ Focus Areas: Artificial Intelligence, automation, system design, creative development
