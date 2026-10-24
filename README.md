@@ -63,6 +63,7 @@ Long term, I’m interested in multi-agent AI systems, conversational interfaces
 <p align="center">
   <img src="banner.svg" width="100%">
 </p>
-****■ Selected Projects**
 
-🥗 [No Regret No Cry](https://github.com/Larimar4you) · 🚗 [Auto-Werkstatt](https://github.com/Larimar4you/auto-werkstatt-portal) · ⚙️ [Node.js Backend](https://github.com/Larimar4you/nodejs-hw)\*\*
+**■ Selected Projects**
+
+🥗 [No Regret No Cry](https://github.com/Larimar4you) · 🚗 [Auto-Werkstatt](https://github.com/Larimar4you/auto-werkstatt-portal) · ⚙️ [Node.js Backend](https://github.com/Larimar4you/nodejs-hw)
