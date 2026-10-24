@@ -41,6 +41,10 @@ and a restless curiosity for intelligent systems.
 <p>Deployment: Vercel · Render</p>
 <!-- <img src="./assets/icons/html5.svg" width="18" /> -->
 
+**■ Selected Projects**
+
+🥗 [No Regret No Cry](https://github.com/Larimar4you) · 🚗 [Auto-Werkstatt](https://github.com/Larimar4you/auto-werkstatt-portal) · ⚙️ [Node.js Backend](https://github.com/Larimar4you/nodejs-hw)
+
 ■ Focus Areas: Artificial Intelligence, automation, system design, creative development
 ─────────────────────────────────────────────────
 
