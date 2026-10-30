@@ -1,4 +1,8 @@
-<img src="./styles/lara-intro.svg" width="650">
+<p align="center">
+  <img src="./assets/larimar-full-banner-scan.gif" alt="Lara Kosta — animated seasonal banner" width="100%" />
+</p>
+
+<!-- <img src="./styles/lara-intro.svg" width="650"> -->
 
 <!-- <img src="./styles/hero.svg" width="400"> -->
 
