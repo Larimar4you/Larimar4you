@@ -68,9 +68,9 @@ Long term, I’m interested in multi-agent AI systems, conversational interfaces
 
 🌐 Connect
 
-<p align="center">
+<!-- <p align="center">
   <img src="banner.svg" width="100%">
-</p>
+</p> -->
 
 ■ Selected Projects
 
