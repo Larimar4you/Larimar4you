@@ -66,7 +66,7 @@ I value clarity, structure, and long-term thinking in both code and product deci
 Long term, I’m interested in multi-agent AI systems, conversational interfaces, and behavioral modeling within intelligent software environments.
 ───────────────────────────────────────────────
 
-🌐 Connect
+<!-- 🌐 Connect -->
 
 <!-- <p align="center">
   <img src="banner.svg" width="100%">
